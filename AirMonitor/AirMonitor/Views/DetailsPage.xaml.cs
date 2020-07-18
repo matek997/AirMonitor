@@ -19,7 +19,7 @@ namespace AirMonitor.Views
 
         private void Help_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Co to jest CAQI?", "Lorem ipsum.", "Zamknij");
+            DisplayAlert("What is CAQI?", "The CAQI is a number on a scale from 1 to 100, where a low value means good air quality and a high value means bad air quality. ", "Close");
         }
     }
 }

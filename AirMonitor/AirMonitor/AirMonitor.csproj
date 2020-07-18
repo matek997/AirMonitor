@@ -27,9 +27,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MainPage.xaml" />
+    <EmbeddedResource Remove="Views\MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Converters\StringFormatConverter.cs" />
+    <Compile Remove="Views\MainPage.xaml.cs" />
     <Compile Remove="Views\ViewPage.cs" />
   </ItemGroup>
   <ItemGroup>
